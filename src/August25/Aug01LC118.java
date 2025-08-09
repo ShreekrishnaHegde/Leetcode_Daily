@@ -31,7 +31,7 @@ public class Aug01LC118 {
         }
         return ans;
     }
-    public List<List<Integer>> generate(int numRows) {
+    public List<List<Integer>> generate1(int numRows) {
         List<List<Integer>> triangle = new ArrayList<List<Integer>>();
 
         triangle.add(new ArrayList<>());
